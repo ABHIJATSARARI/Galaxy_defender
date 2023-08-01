@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Defender</title>
+    <!-- Link to the style.css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Import Material UI from a CDN -->
+    <script src="https://unpkg.com/@mui/material@latest/umd/material-ui.production.min.js"></script>
+</head>
+<body>
+    <!-- Create a div element with the id "container" to hold all the game elements -->
+    <div id="container">
+        <!-- Create a div element with the id "title-screen" to display the title, logo, and buttons -->
+        <div id="title-screen">
+            <!-- Create a h1 element with the id "title" to display the game name -->
+            <h1 id="title">Galaxy Defender</h1>
+            <!-- Create a img element with the id "logo" to display the game logo -->
+            <img id="logo" src="assets/images/logo.png" alt="Galaxy Defender Logo">
+            <!-- Create a div element with the id "buttons-container" to hold the buttons -->
+            <div id="buttons-container">
+                <!-- Create a div element with the id "start-button" to render the start button component -->
+                <div id="start-button"></div>
+                <!-- Create a div element with the id "instructions-button" to render the instructions button component -->
+                <div id="instructions-button"></div>
+            </div>
+        </div>
+        <!-- Create a div element with the id "instructions-screen" to display the instructions -->
+        <div id="instructions-screen">
+            <!-- Create a h2 element with the id "instructions-title" to display the instructions title -->
+            <h2 id="instructions-title">Instructions</h2>
+            <!-- Create a p element with the id "instructions-text" to display the instructions text -->
+            <p id="instructions-text">You are a member of an elite space force that is defending the galaxy from a rogue AI that has taken over the space stations. You must fight through the endless space, destroying the AI's drones, satellites, and weapons, while protecting your allies and bases. How many enemies can you defeat?</p>
+            <!-- Create a ul element with the id "instructions-list" to display the instructions list -->
+            <ul id="instructions-list">
+                <!-- Create li elements to display each instruction item -->
+                <li>Use the left and right arrow keys or mouse to move your spaceship.</li>
+                <li>Press the spacebar or click the mouse to shoot lasers.</li>
+                <li>Avoid getting hit by enemy fire or obstacles.</li>
+                <li>Destroy enemies and collect items to increase your score.</li>
+                <li>Watch your health bar and don't let it reach zero.</li>
+            </ul>
+            <!-- Create a div element with the id "back-button" to render the back button component -->
+            <div id="back-button"></div>
+        </div>
+        <!-- Create a canvas element with the id "game-screen" to display the game graphics -->
+        <canvas id="game-screen"></canvas>
+        <!-- Create a div element with the id "ui-screen" to display the user interface -->
+        <div id="ui-screen">
+            <!-- Create a span element with the id "score" to display the score -->
+            <span id="score">Score: 0</span>
+            <!-- Create a span element with the id "health" to display the health -->
+            <span id="health">Health: 100%</span>
+        </div>
+    </div>
+
+    <!-- Your JSX code in a script tag with type="text/babel" -->
+    
+
+    <!-- Link to the script.js file -->
+    <script  type="text/babel" src="script.js"></script>
+</body>
+</html>

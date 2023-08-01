@@ -1,0 +1,84 @@
+/* Define the style for the body element */
+body {
+    /* Set the background color to black */
+    background-color: black;
+    /* Set the margin to zero */
+    margin: 0;
+    /* Set the font family to Arial */
+    font-family: Arial, sans-serif;
+}
+
+/* Define the style for the container element */
+#container {
+    /* Set the width to 800 pixels */
+    width: 800px;
+    /* Set the height to 600 pixels */
+    height: 600px;
+    /* Center the element horizontally */
+    margin: 0 auto;
+    /* Set the position to relative */
+    position: relative;
+}
+
+/* Define the style for the title-screen element */
+#title-screen {
+    /* Set the width to 100% of the parent element */
+    width: 100%;
+    /* Set the height to 100% of the parent element */
+    height: 100%;
+    /* Set the position to absolute */
+    position: absolute;
+    /* Set the top and left coordinates to zero */
+    top: 0;
+    left: 0;
+    /* Set the display to flex */
+    display: flex;
+    /* Align the items vertically in the center */
+    align-items: center;
+    /* Justify the content horizontally in the center */
+    justify-content: center;
+    /* Set the flex direction to column */
+    flex-direction: column;
+}
+
+/* Define the style for the title element */
+#title {
+    /* Set the color to white */
+    color: white;
+    /* Set the font size to 48 pixels */
+    font-size: 48px;
+}
+
+/* Define the style for the logo element */
+#logo {
+    /* Set the width to 300 pixels */
+    width: 300px;
+}
+
+/* Define the style for buttons-container element */ 
+#buttons-container { 
+   /* Set a margin of 20 pixels above and below */ 
+   margin: 20px 0; 
+}
+
+/* Define a common style for all button elements */ 
+button { 
+   /* Set a margin of 10 pixels around each button */ 
+   margin: 10px; 
+}
+
+/* Define a common style for all canvas elements in game-screen element */  
+#game-screen canvas {  
+   /* Hide this element by default */  
+   display:none;  
+}
+/* Update the style for the game-screen element to show the canvas when the game starts */
+#game-screen canvas {
+    /* Set the width to 100% of the parent element */
+    width: 100%;
+    /* Set the height to 100% of the parent element */
+    height: 100%;
+    /* Set the display to block to show the canvas */
+    display: block;
+}
+
